@@ -1,0 +1,7 @@
+from bs4 import BeautifulSoup
+import requests
+
+r = requests.get('http://stackoverflow.com/questions/25067580/passing-web-data-into-beautiful-soup-empty-list')
+soup = BeautifulSoup(r.content, "html.parser")
+
+soup.find_all("div", class_="hi")
