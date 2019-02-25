@@ -1,0 +1,25 @@
+{
+	"show_video": true,
+
+	"background": {
+		"generate_frames": 1,
+		"thresh_pixel_diff": 150,
+		"thresh_bg": 10
+	},
+
+	"camera": {
+		"size": [480, 640]
+	},
+
+	"stream2": {
+		"local": false,
+		"dropbox": true,
+		"nas": false
+	},
+
+	"dropbox": {
+		"key": "dropbox_key",
+		"secret": "dropbox_secret",
+		"base_path": "dropbox_base_path"
+	}
+}
